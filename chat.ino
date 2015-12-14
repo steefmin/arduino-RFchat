@@ -28,7 +28,7 @@ void loop() {
                 vw_wait_tx();
         }
         // Read the received data
-        vw_wait_rx_max(10);                             
+        //vw_wait_rx_max(10);                             // can we commment this out?
         if (vw_get_message(buf, &buflen)){
                 int i;
                 for (i = 0; i < buflen; i++){
