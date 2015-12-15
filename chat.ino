@@ -32,7 +32,7 @@ void loop() {
         if (vw_get_message(buf, &buflen)){
                 //int i;
                 //for (i = 0; i < buflen; i++){
-                    Serial.write(buf[1]);
+                    Serial.write(buf[0]);
                 //}     
     }
 }
